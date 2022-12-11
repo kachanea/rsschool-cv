@@ -1,5 +1,5 @@
 ## CV
-<img src="https://github.com/kachanea/rsschool-cv/blob/274e12c4b242a01994761842e9c20f57531983c6/foto.png" alt="foto" width="15%" align="right">
+<img src="https://github.com/kachanea/kachanea/blob/8cf7211a582fdbe7a25f3d89bd9a9e502455cb78/foto.png" alt="foto" width="15%" align="right">
 <h1> Katerina Kachan </h1>
 <h5> Front-end developer </h5>
 =====================================================================
