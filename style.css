@@ -27,9 +27,9 @@ html {
 body {
    font-family: 'SourceSansPro', sans-serif;
    font-size: 16px;
-   font-weight: 400;
+   font-weight: 300;
    line-height: 1.5;
-   color: #4d2323;
+   color: #2C3E50;
 
    min-height: 100vh;
    margin: 100;
@@ -41,17 +41,22 @@ body {
 }
 
 .header {
-    background-color: #aaa;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
     border-radius: 5px;
 }
+
 .main {
     padding: 0px 0px 20px 0px;
 }
 
 .footer {
-    background-color: #aaa;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
     padding: 5px 200px 5px 160px;
     border-radius: 5px;
+    color: white;
+    align-items: center;
 }
 
 #footer-list {
@@ -94,29 +99,36 @@ body {
     padding: 0 20px;
     line-height: 50px;
     text-decoration: none;
-    transition: .3s;
+    transition: 0.3s;
+    color: white;
 }
 
-.section-item a {
+.nav-link:hover{
+    color: #aaa;
+}
+
+//.section-item a {
   color: #829985;
   text-decoration: none;
-  transition: color 0.3s;
+  transition: color 0.5s;
 }
-.section-item a:hover {
-  color: #4d2323;
+
+//.section-item a:hover {
+  color: white;
 }
 
 a {
    text-decoration: none;
+   color: #4D6FC0;
 }
 
-.italic {
+//.italic {
     font-weight: 150;
 }
 
 .section-title {
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 3px;
   color: #2c3136;
@@ -124,17 +136,34 @@ a {
 
 .link {
   text-decoration: none;
-  color: #829985;
-  transition: color 0.5s;
+  color: #4D6FC0;
+  transition: color 0.3s;
+}
+
+.link2 {
+  text-decoration: none;
+  color: #4D6FC0;
+  transition: color 0.3s;
+  font-weight: 400;
 }
 
 .link:hover {
-  color: #5d7260;
+  color: white;
+  font-weight: 100
+}
+
+.link2:hover {
+  color: #aaa;
+  font-weight: 100
 }
 
 ol {
-    list-style: none;
     list-style-type: none;
+    font-weight: 400;
+}
+
+ul {
+    font-weight: 400;
 }
 
 #profile {
@@ -142,20 +171,21 @@ ol {
     text-align: justify;
 }
 
-
 p {
     margin: 0 0 0 40px;
 }
 
-h5,h1 {
+h5,
+h1 {
     line-height: 0.3;
-    margin: 30px 0px 30px 170px;
+    margin: 30px 0px 0px 170px;
 }
 
 .horisontline {
     border-bottom: thick solid #aaa;
     width: 100%;
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 0px 0px;
+    align-items: center;
 }
 
 .column {
@@ -167,6 +197,7 @@ h5,h1 {
 .left-column {
     width: 55%;
 }
+
 .right-column {
     width: 45%;
 }
@@ -176,7 +207,7 @@ h5,h1 {
 }
 
  mark {
-    background: #ffffcc;
+    background: #f5f5f5;
     padding: 0 3px;
    }
 
@@ -189,7 +220,6 @@ h5,h1 {
     justify-content: flex-start;
     align-items: start;
     list-style: none;
-
 }
 
 .avatar-block2 {
@@ -197,5 +227,28 @@ h5,h1 {
     justify-content: flex-start;
     align-items: start;
     list-style-type: none;
-    margin: 16px 0px 0px -175px;
+    margin: 0px 0px 0px -175px;
+}
+
+#contacts {
+        background-color: #FFDEE9;
+        background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+        padding: 0 200px 0 10px;
+        border-radius: 5px;
+}
+
+#github-logo {
+    width: 40;
+    align-items: center;
+    margin: 0 10px -12px 0;
+}
+#github-logo:hover {
+    filter:invert(100%);
+}
+#rs:hover {
+    filter:invert(100%);
+}
+
+code {
+    margin: 0 0 0 35px;
 }
