@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+          content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CV</title>
     <link rel="stylesheet" href="style.css">
@@ -44,8 +44,8 @@
         </section>
     </div>
 
-    <div class="main-container">
-        <div class="container column left-column">
+    <div class="main-container container">
+        <div class="column left-column">
 
         <section class="section" id="summary">
             <h2 class="section-title">About me</h2>
@@ -70,22 +70,11 @@
 
         <section class="section" id="code-example">
             <h2 class="section-title">Code Example</h2><pre><mark><code>&lt;ul class="item-advantages"&gt;
-&lt;?php foreach ($features as $value):?&gt;
-&lt;li&gt; &lt;?= $value ?&gt; &lt;/li&gt;
-&lt;?php endforeach;?&gt;
-&lt;/ul&gt;</code></mark></pre>
+    &lt;?php foreach ($features as $value):?&gt;
+    &lt;li&gt; &lt;?= $value ?&gt; &lt;/li&gt;
+    &lt;?php endforeach;?&gt;
+    &lt;/ul&gt;</code></mark></pre>
 
-        </section>
-
-
-
-
-        <section class="section" id="experience">
-            <h2 class="section-title">Experience</h2>
-            <div>
-                <p>my first project on GitHub – <span><a href="https://kachanea.github.io/rsschool-cv/cv">CV</a></span>
-                </p>
-            </div>
         </section>
 
     </div>
@@ -96,11 +85,11 @@
             <section class="section" id="contacts">
                 <h2 class="section-title">Contacts</h2>
                 <ul>
-                    <li>Github:  <a href="https://github.com/kachanea"><span class="italic">kachanea</span></a></li>
+                    <li>Github:  <a href="https://github.com/kachanea" class="link"><span class="italic">kachanea</span></a></li>
                     <li>Telegram:  <span class="italic">@kachanea</span></li>
                     <li>Discord:  <span class="italic">KaterinaK#3356</span></li>
-                    <li>E-mail:  <a href="mailto:kachanea@gmail.com"><span class="italic">kachanea@gmail.com</span></a></li>
-                    <li>Linkedin:  <a href="https://www.linkedin.com/in/katja-k/overlay/contact-info/"><span class="italic"> katja-k</span></a></li>
+                    <li>E-mail:  <a href="mailto:kachanea@gmail.com" class="link"><span class="italic">kachanea@gmail.com</span></a></li>
+                    <li>Linkedin:  <a href="https://www.linkedin.com/in/katja-k/overlay/contact-info/" class="link"><span class="italic"> katja-k</span></a></li>
                     <li>Adress:  <span class="italic">Rostov-on-Don, Russia</span></li>
                 </ul>
             </section>
@@ -120,16 +109,23 @@
             </section>
 
 
-        <section class="section" id="languages">
-            <h2 class="section-title">Languages</h2>
-        <div>
-            <ol>
-                <li>Russian<span class="font-light"> – native</span></li>
-                <li>English<span class="font-light"> – Intermediate (without speaking practice). Keep learning with Duolingo.</span></li>
-            </ol>
-        </div>
-        </section>
+            <section class="section" id="experience">
+                <h2 class="section-title">Experience</h2>
+                <div>
+                    <p>my first project on GitHub – <span><a href="https://kachanea.github.io/rsschool-cv/cv" class="link2">CV</a></span>
+                    </p>
+                </div>
+            </section>
 
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <div>
+                    <ol>
+                        <li>Russian<span class="font-light"> – native</span></li>
+                        <li>English<span class="font-light"> – Intermediate (without speaking practice). Keep learning with Duolingo.</span></li>
+                    </ol>
+                </div>
+            </section>
 
     </div>
     </div>
@@ -137,8 +133,8 @@
 <footer>
     <div class="container footer">
        <ul id="footer-list">
-           <li><a href="https://github.com/kachanea"><span>kachanea</span></a></li>
-           <li><a href="https://rs.school/js/"><img id="rs" src="assets/svg/rs_school_js.svg" width="50px" alt="The Rolling Scope School"></a></li>
+           <li><a href="https://github.com/kachanea" class="nav-link"><img src="assets/svg/github-mark.svg" alt="GitHub logo" width="40" id="github-logo"><span>kachanea</span></a></li>
+           <li><a href="https://rs.school/js/" class="link"><img id="rs" src="assets/svg/rs_school_js.svg" width="70" alt="The Rolling Scope School"></a></li>
            <li><span class="year-footer">2022</span></li>
        </ul>
     </div>
