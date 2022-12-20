@@ -31,14 +31,21 @@
 
     <div class="container">
         <section class="section horisontline" id="profile">
-
-            <ul id="avatar-block">
+            <div id="avatar-block">
+            <!--<ul id="avatar-block">
                 <li><img src="assets/img/foto.png" id="avatar" alt="avatar"></li>
                 <li><ul class="avatar-block2">
                     <li><h1>Ekaterina Kachan</h1>
                         <h5 class="h5 font-light">front-end developer</h5></li>
                 </ul></li>
-            </ul>
+            </ul> -->
+
+                <img src="assets/img/foto.png" id="avatar" alt="avatar">
+                    <div>
+                        <h1>Ekaterina Kachan</h1>
+                        <h5 class="h5 font-light">front-end developer</h5>
+                    </div>
+            </div>
 
 
         </section>
@@ -88,6 +95,7 @@
             <div>
                 <ul>
                     <li>RS – Front-End (in progress)</li>
+                    <li>HTML Academy – PHP SQL (in progress)</li>
                     <li>Epam – Computer Science Basics</li>
                     <li>Epam – Version Control with Git</li>
                     <li>Google – Foundations of User Experience (UX) Design</li>
@@ -107,14 +115,14 @@
         </section>
 
 
-                <section class="section" id="experience">
-                    <h2 class="section-title">Experience</h2>
+                <section class="section">
+                    <h2 class="section-title" id="experience">Experience</h2>
                     <div>
                         <p>my first project on GitHub – <span><a href="https://kachanea.github.io/rsschool-cv/cv" class="link2">CV</a></span>
                         </p>
                     </div>
 
-                    <h2 class="section-title">Languages</h2>
+                    <h2 class="section-title" id="languages">Languages</h2>
                     <div>
                         <ol>
                             <li>Russian<span class="font-light"> – native</span></li>
@@ -129,7 +137,8 @@
     <footer>
         <div class="container footer">
            <ul id="footer-list">
-               <li><a href="https://github.com/kachanea" class="nav-link"><img src="assets/svg/github-mark.svg" alt="GitHub logo" width="40" id="github-logo"><span>kachanea</span></a></li>
+               <li id="block-github-foto"><a href="https://github.com/kachanea" class="nav-link">
+                   <img src="assets/svg/github-mark.svg" alt="GitHub logo" width="40" id="github-logo"><label for="github-logo">kachanea</label></a></li>
                <li><a href="https://rs.school/js/" class="link"><img id="rs" src="assets/svg/rs_school_js.svg" width="70" alt="The Rolling Scope School"></a></li>
                <li><span class="year-footer">2022</span></li>
            </ul>
