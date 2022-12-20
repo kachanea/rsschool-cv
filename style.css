@@ -208,6 +208,16 @@ h5 {
     width:140px;
 }
 
+img#avatar {
+    position: relative;
+    transition: 0.5s;
+}
+img#avatar:hover {
+    z-index: 10;
+    transform: scale (1.2);
+}
+
+
 #avatar-block {
     display: flex;
     justify-content: flex-start;
